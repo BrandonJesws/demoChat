@@ -1,0 +1,84 @@
+.prueba{
+  width: 100%;
+  height: 1500px;
+  background: #303030;
+}
+.tabla{
+  width: 25%;
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+}
+.mensages{
+  background: #dfdfdf;
+  height: 50vh;
+  width: 96%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.mensages ul{
+  position: relative;
+}
+.mensages li{
+  position: relative;
+  padding-top:2px;
+  top: 10px;
+  left: 10%;
+  right: 0;
+  background: #435e77;
+  color: #FFF;
+  max-width: 88%;
+  padding-right: 10px;
+  text-align: right;
+  list-style: none;
+}
+.encabezado{
+  background: #21384e;
+  height: 10vh;
+  padding-top: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.35s ease-in;
+}
+.encabezado h3{
+  color: #FFF;
+  width: 30%;
+}
+.encabezado img{
+  width: 140px;
+  height: 35px;
+  padding-left: 70px;
+}
+.encabezado:hover {
+  background: #435e77;
+}
+.debug__content {
+  font-size: 14px;
+  overflow: hidden;
+  -webkit-transition: all 0.35s ease-in;
+}
+.debug__content.is-active {
+  display: block;
+  max-height: 0px;
+}
+.mensajeU{
+  position: relative;
+  padding-top:2px;
+  top: 10px;
+  left: 10%;
+  background: #435e77;
+  color: #FFF;
+  max-width: 80%;
+}
+.mensajeB{
+  position: relative;
+  padding-top:2px;
+  top: 10px;
+  right:7%;
+  background: #2f455a;
+  color: #FFF;
+  max-width: 80%;
+}
+.entrada{
+  width: 21.5vw;
+  padding-left: 2vw;
+}
